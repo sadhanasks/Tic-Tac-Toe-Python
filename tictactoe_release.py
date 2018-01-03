@@ -1,3 +1,9 @@
+def def print_game_rules(max_incorrect, word_lens) : 
+    print("Welcome to the tic tac toe game!")
+    print()
+    print("Each player gets a chance to enter where they want to place their piece on the board.")
+    print("If the player gets three of the same pieces in a row, then the player will win, but if the players fill the board without either player getting three pieces in a row the game is at a draw.")
+    print("The first player to get three pieces in a row wins")
 def tic_tac_toe():
     board = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     end = False
